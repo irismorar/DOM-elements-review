@@ -1,0 +1,95 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  background-color: #666;
+  font-size: 10px;
+}
+
+.header_container {
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 7em;
+  letter-spacing: .3em;
+}
+
+.headder_container_nav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2em;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+.image_container {
+  border: 2px solid yellow;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main_container{
+  border: 3px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 3em 0;
+  font-size: 1.8em;
+}
+
+.main_poetry_section {
+  color: #999;
+  border: 1px solid #333;
+  width: 60%;
+  padding: 3em;
+}
+
+.poetry_container {
+  color: #bbb;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #bbb;
+}
+
+.author_infos_container {
+  font-style: italic;
+  font-size: .8em;
+}
+
+.adds_container {
+  height: 100%;
+  border: 3px solid green;
+  width: 40%;
+}
+
+.adds_container > div {
+  padding: 1em;
+  margin: 0 0 4em 0;
+  border: 1px solid #ddd;
+}
+
+hr {
+  width: 40%;
+  border: 1px solid #777;
+}

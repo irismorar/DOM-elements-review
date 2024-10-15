@@ -1,9 +1,10 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 body {
-  width: 100vw;
   font-size: 10px;
   background-color: #333;
 }
@@ -48,13 +49,14 @@ a:hover {
 }
 
 .image_container {
-  border: 2px solid yellow;
   margin: 0 auto;
-  padding: 0 1.5em;
 }
 
-.main_container{
-  border: 3px solid blue;
+img {
+  width: 100%;
+}
+
+.main_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,14 +93,13 @@ h2 {
 
 .adds_container {
   height: 100%;
-  border: 3px solid green;
   width: 35%;
   display: flex;
   flex-direction: column;
   gap: 3em;
 }
 
-.adds_container > div {
+.adds_container>div {
   padding: 1em;
   border: 1px solid #ddd;
 }
@@ -107,8 +108,4 @@ hr {
   width: 15em;
   border: 1px solid #777;
   float: left;
-}
-
-p {
-  margin: 0;
 }
